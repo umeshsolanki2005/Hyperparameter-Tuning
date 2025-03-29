@@ -1,1 +1,4 @@
 # Hyperparameter-Tuning
+Hyperparameter tuning is the process of optimizing the parameters that control the learning process of a machine learning model. Unlike model parameters (like weights in linear regression), hyperparameters are set before training and influence how the model learns from the data. Examples include the number of trees in a Random Forest, the learning rate in gradient boosting, and the number of layers in a neural network.
+
+In this task, Random Forest Classifier was applied to the Iris dataset, and Grid Search Cross-Validation (GridSearchCV) was used for hyperparameter tuning. A hyperparameter grid was defined with various options for parameters like n_estimators, max_depth, min_samples_split, min_samples_leaf, and max_features. The best hyperparameters were selected based on accuracy using 5-fold cross-validation.
